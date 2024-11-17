@@ -1,0 +1,84 @@
+[
+    {
+        "photo" : "images/2ndGenAirPods.webp",
+        "name" :  "2nd Generation Airpods" ,
+        "price": 19.99,
+        "desc" : "They might be old but you can't beat $19.99"
+    },
+    {
+            "photo" : "images/3rdGen.avif",
+            "name" :  "3rd Generation Airpods" ,
+            "price": 29.99,
+            "desc" : "The second best thing behind the 3rd generation pro's"
+    },
+
+    {
+        "photo" : "images/airPodsPro.jpeg",
+        "name" :  "3rd Generation Airpod Pro's" ,
+        "price": 39.99,
+        "desc" : "The newest version of the 3rd generation airpod pro's "
+    },
+
+    {
+        "photo" : "images/AirPodsMax.jpeg",
+        "name" :  "AirPods ProMax" ,
+        "price": 59.99,
+        "desc" : "The AirPod Max's provide full immersiveness to anything you're listening to"
+    },
+
+    {
+        "photo" : "images/iphone13.jpg",
+        "name" :  "iphone 13" ,
+        "price": 70.00,
+        "desc" : "The iphone 13, perfect for beginners, not only for teenagers but also for grandparents"
+    },
+
+    {
+        "photo" : "images/iphone14.jpg",
+        "name" :  "iphone 14" ,
+        "price": 79.99,
+        "desc" : "The iphone 14 is easy to use and know for it's dual camera ability"
+    },
+
+    {
+        "photo" : "images/iphone15.jpg",
+        "name" :  "iphone 15" ,
+        "price": 89.99, 
+        "desc" : "Introducing the best model since the iphone 6 the fairly new iphone 15"
+    },
+
+    {
+        "photo" : "images/iphone16.jpg",
+        "name" :  "iphone 16" ,
+        "price" : 109.99,
+        "desc" : "The newest iphone up to date, the most advanced iphone yet with it's sleek look it's perfect for anyone"
+    },
+
+    {
+        "photo" : "images/ipadAir.jpg",
+        "name" :  "ipad Air" ,
+        "price" : 79.99,
+        "desc" : "The ipad Air is fairly old but it's still a perfect tablet"
+    },
+
+    {
+        "photo" : "images/ipadPro.jpeg",
+        "name" :  "ipad Pro" ,
+        "price" : 85.00,
+        "desc" : "The ipad Pro perfect for drawing, gaming, and even pictures it can do it all"
+    },
+
+    {
+        "photo" : "images/macBook.jpeg",
+        "name" :  "MacBook Pro" ,
+        "price" : 99.99,
+        "desc" : "The OG Macbook known for it's processing power, it is great for gaming, streaming, and even work"
+    },
+
+    {
+        "photo" : "images/NextGenMacBook.jpg",
+        "name" :  "MacBook Pro Next Generation" ,
+        "price" : 109.99,
+        "desc" : "The MacBook pro next generation is the most diverse MacBook know to humanity, with all it's unique features it deserves to be in the Apple Hall Of Fame"
+    }
+]

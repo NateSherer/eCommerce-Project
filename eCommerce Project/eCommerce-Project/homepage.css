@@ -1,0 +1,270 @@
+body{
+background-color: #E2E2E0;
+display: flex;
+flex-direction: column;
+min-height: 100vh; 
+}
+
+img{
+    height: 130px;
+    width: 150px;
+    top: 0%;
+    left: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #D90429;
+}
+
+ul {
+    top: 0;
+    list-style-type: none;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    background-color: #D90429;
+    width: 100%;
+    margin-left: 50px;
+    height: 50px;
+}
+
+ul li{
+margin-right: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: black;
+}
+
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px
+}
+
+.hero{
+    background-image: url(images/NewHomepage.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #D90429;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-content h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero-content p{
+    font-size: 1.5rem;
+}
+
+a button{
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+}
+
+.index-section-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.index-sectionContent-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E2E2E0;
+    margin-left: 40px;
+    border-radius: 20px;
+    
+}
+
+.index-sectionContent-left p, h1, h2, button {
+    margin: 20px;
+}
+
+.index-section-middle img{
+width: 300px;
+height: 300px;
+}
+
+/* This Targets the bottom section of the page*/
+main {
+    width: 100%;
+    background-color: #D90429;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+
+}
+
+h2 {
+    color: #D90429;
+}
+/* Styles the content box*/
+.index-navsection {
+    width: 100vw;
+    background-color: #E2E2E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-navsection img {
+    height: 300px;
+    width: auto;
+}
+
+/* This targets the middle section*/
+.index-center_nav_section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 30px;
+    background-color: #D90429;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+    button {
+        padding: 10px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    button:hover{
+        background-color: #E2E2E0;
+        color: black;
+    }
+    
+    .content-column {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* This is for the 2nd section of my homepage to make the image show besdie it */
+    .content-column-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    footer{
+        position: absolute;
+        bottom: -780px;
+        left: 0;
+        background-color: #D90429;
+        width: 100%;
+        height: 210px;
+        text-align: center;
+    }
+    
+    footer a p {
+        display: flex;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 798px) {
+        body{
+            font-size: 14px;
+            padding: 10px;
+        }
+        nav ul{
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-container{
+            padding: 5px
+        }
+        .index-section{
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (min-width: 801px){
+        body{
+            font-size: 16px;
+            margin: 20px;
+        }
+        nav ul{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .form-container{
+            padding: 20px;
+        }
+        .index-section{
+            display: flex;
+            justify-content: space-between;
+        }
+    }

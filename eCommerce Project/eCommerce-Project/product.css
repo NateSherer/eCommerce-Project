@@ -1,0 +1,154 @@
+body{
+    background-color:  white
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container:hover{
+    transform: translateY(-7px); /* lifts the box when hovered over */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Makes the shadow show more */
+    background-color: #949494; /* Optional: Lighten the background color */
+    border-color: #D90429; /* Optional: Change border color on hover */
+}
+
+
+.productDiv{
+    background-color: #D90429;
+    color: white;
+    flex: 0 1 calc(25% - 20px);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); 
+    width: 200px;
+    margin-bottom: 50px;
+} 
+
+.productDiv:hover{
+    transform: translateY(-10px); /* Slightly lifts the box */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Makes the shadow more prominent */
+    background-color: #f1f1f1; /* Optional: Lighten the background color */
+    border-color: #999; /* Optional: Change border color on hover */
+}
+
+img{
+    height: 130px;
+    width: 150px;
+    top: 0%;
+    left: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #D90429;
+}
+
+
+ul {
+    top: 0;
+    list-style-type: none;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    background-color: #D90429;
+    width: 100%;
+    margin-left: 50px;
+    height: 50px;
+}
+
+ul li{
+margin-right: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer{
+    position: absolute;
+    bottom: -340px;
+    left: 0;
+    background-color: #D90429;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+
+footer a p {
+    display: flex;
+    text-align: center;
+}
+
+
+/* The code below is to make my code responsive*/
+@media screen and (max-width: 798px) {
+    body{
+        font-size: 14px;
+        padding: 10px;
+        height: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-container{
+        padding: 5px
+    }
+    .index-section{
+        flex-direction: column;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 14vh;
+    }
+}
+
+@media screen and (min-width: 801px){
+    body{
+        font-size: 16px;
+        margin: 20px;
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .form-container{
+        padding: 20px;
+    }
+    .index-section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer{
+        flex-direction: row;
+        margin: 0;
+    }
+}
